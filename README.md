@@ -1,10 +1,9 @@
-# HighFinder
+# The Cannabis API 
 
-This app uses machine learning algorithms to provide users with recommendations on similar cannabis strains based on their input preferences. Users can input their desired strain characteristics, and the app will provide recommendations based on the input data and the machine learning model's
+This API is a free alternative to the Strains API found on RapidAPI. I've used the 'cannabis' dataset from Kaggle. 
 
 To start app -
 ```
 nodemon index.js 
-python api/cannabis_flask.py
 ```
 
