@@ -5,6 +5,7 @@ require("dotenv").config();
 const mongoose = require('mongoose');
 const session = require('express-session');
 const request = require('request');
+const port = process.env.PORT || 3000
 
 // routers
 const indexRouter = require('./routes/index');
@@ -36,5 +37,6 @@ app.use('/', indexRouter);
 app.use('/strains', strainRoutes);
 
 // server
-app.listen(8080);
-console.log('Server running at http://localhost:8080');
+app.listen(port,() => {
+  console.log(`Server running at port `+ port);
+});
