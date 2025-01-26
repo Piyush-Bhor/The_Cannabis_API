@@ -15,8 +15,5 @@
       "src": "/api/strains/(.*)",
       "dest": "/api/strains/$1.js"
     }
-  ],
-  "env": {
-    "CONNECTIONSTRING": "@mongodb-connection-string"
-  }
+  ]
 }
