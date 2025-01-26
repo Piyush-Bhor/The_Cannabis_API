@@ -1,6 +1,6 @@
 # The Cannabis API
 
-![Cannabis API Logo](https://github.com/Piyush-Bhor/The_Cannabis_API/blob/master/public/images/logo.png)
+![Cannabis API Logo](public/images/logo.png)
 
 The Cannabis API is a RESTful API that provides comprehensive information about various cannabis strains. It allows you to query and retrieve details such as strain name, type (indica, sativa, or hybrid), rating, effects, flavors, and descriptions. The API is built using Node.js, Express, and MongoDB, and it is hosted on Heroku. The dataset used to populate the API is sourced from Kaggle, specifically the "cannabis.csv" file.
 
@@ -27,8 +27,25 @@ To run the Cannabis API locally, follow these steps:
    ```
 
 4. Set up the MongoDB connection:
-   - Make sure you have MongoDB installed and running locally or provide a remote MongoDB connection URI.
-   - Update the MongoDB connection details in the `.env` file.
+
+   1. Sign Up: Go to MongoDB Atlas and create a free account.
+
+   2. Create a Cluster: Click "Build a Cluster" (free tier), choose a cloud provider and region.
+
+   3. Create a Database User: Go to Database Access, click Add New Database User, and set username, password, and "Read and Write" privileges.
+
+   4. Get Connection String: Copy the connection string and replace <username> and <password>.
+
+   5. Add to .env File:
+
+   ```
+      CONNECTIONSTRING=mongodb+srv://<username>:<password>@cluster.mongodb.net/test
+   ```
+
+   6. Create Database: In Atlas, create a test cluster and a strain database.
+
+   7. Insert Data: Go to Collections in your cluster, click Insert Document, and paste the contents of cannabis.json.
+      ![MongoDB](public/images/mongo.png)
 
 5. Start the server:
 
