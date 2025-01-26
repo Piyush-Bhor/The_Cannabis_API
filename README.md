@@ -2,7 +2,7 @@
 
 ![Cannabis API Logo](public/images/logo.png)
 
-The Cannabis API is a RESTful API that provides comprehensive information about various cannabis strains. It allows you to query and retrieve details such as strain name, type (indica, sativa, or hybrid), rating, effects, flavors, and descriptions. The API is built using Node.js, Express, and MongoDB, and it is hosted on Heroku. The dataset used to populate the API is sourced from Kaggle, specifically the "cannabis.csv" file.
+The Cannabis API is a RESTful API that provides comprehensive information about various cannabis strains. It allows you to query and retrieve details such as strain name, type (indica, sativa, or hybrid), rating, effects, flavours, and descriptions. The API is built using Node.js, Express, and MongoDB, and it is hosted on Heroku. The dataset used to populate the API is sourced from Kaggle, specifically the "cannabis.csv" file.
 
 ## Installation
 
@@ -65,8 +65,8 @@ The following API endpoints are available:
 - `GET /strains/getStrainsByEffect/:strainEffect`: Retrieves strains by effect.
 - `GET /strains/getStrainsByFlavour/:strainFlavour`: Retrieves strains by flavor.
 - `GET /strains/getEffectsByStrainId/:strainID`: Retrieves effects by strain ID.
-- `GET /strains/getFlavorsByStrainId/:strainID`: Retrieves flavors by strain ID.
-- `GET /strains/getAllFlavors`: Retrieves all flavors.
+- `GET /strains/getFlavoursByStrainId/:strainID`: Retrieves flavours by strain ID.
+- `GET /strains/getAllFlavours`: Retrieves all flavours.
 - `GET /strains/getAllEffects`: Retrieves all effects.
 
 For detailed information on how to use each endpoint, including request/response examples, please refer to the [API documentation](https://rapidapi.com/th3k3rn3lpan1c/api/the-cannabis-api/details).
