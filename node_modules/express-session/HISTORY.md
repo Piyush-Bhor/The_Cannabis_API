@@ -1,3 +1,31 @@
+1.18.1 / 2024-10-08
+==========
+
+  * deps: cookie@0.7.2
+    - Fix object assignment of `hasOwnProperty`
+  * deps: cookie@0.7.1
+    - Allow leading dot for domain
+      - Although not permitted in the spec, some users expect this to work and user agents ignore the leading dot according to spec
+    - Add fast path for `serialize` without options, use `obj.hasOwnProperty` when parsing
+  * deps: cookie@0.7.0
+    - perf: parse cookies ~10% faster
+    - fix: narrow the validation of cookies to match RFC6265
+    - fix: add `main` to `package.json` for rspack
+
+1.18.0 / 2024-01-28
+===================
+
+  * Add debug log for pathname mismatch
+  * Add `partitioned` to `cookie` options
+  * Add `priority` to `cookie` options
+  * Fix handling errors from setting cookie
+  * Support any type in `secret` that `crypto.createHmac` supports
+  * deps: cookie@0.6.0
+    - Fix `expires` option to reject invalid dates
+    - perf: improve default decode speed
+    - perf: remove slow string split in parse
+  * deps: cookie-signature@1.0.7
+
 1.17.3 / 2022-05-11
 ===================
 
