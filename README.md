@@ -53,7 +53,12 @@ To run the Cannabis API locally, follow these steps:
    npm start
    ```
 
-6. The Cannabis API is now running locally on `http://localhost:3000`.
+6. Add data in database
+   ```bash
+   npx migrate-mongo up
+   ```
+   
+7. The Cannabis API is now running locally on `http://localhost:3000`.
 
 ## API Endpoints
 
