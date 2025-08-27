@@ -9,7 +9,7 @@
 
 The Cannabis API is a RESTful API that provides comprehensive information about various cannabis strains. It allows you to query and retrieve details such as strain name, type (indica, sativa, or hybrid), rating, effects, flavours, and descriptions. The API is built using Node.js, Express, and MongoDB, and it is hosted on Heroku. The dataset used to populate the API is sourced from Kaggle, specifically the "cannabis.csv" file.
 
-The API is hosted on Vercel at: [https://the-cannabis-ayix5e7fr-piyush-bhors-projects.vercel.app](https://the-cannabis-ayix5e7fr-piyush-bhors-projects.vercel.app).
+The API is hosted on Vercel at: [https://the-cannabis-api.vercel.app/](https://the-cannabis-api.vercel.app/).
 
 ![Deployed Project](public/images/deployed.png)
 
