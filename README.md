@@ -75,7 +75,7 @@ The following API endpoints are available:
 
 ## Deployment
 
-The Cannabis API is deployed on Vercel and can be accessed at: [https://the-cannabis-ayix5e7fr-piyush-bhors-projects.vercel.app](https://the-cannabis-ayix5e7fr-piyush-bhors-projects.vercel.app).
+The Cannabis API is deployed on Vercel and can be accessed at: [https://the-cannabis-api.vercel.app/](https://the-cannabis-api.vercel.app/).
 
 To Deploy your own instance of The Cannabis API, do these additional steps:
 
